@@ -1,0 +1,48 @@
+.containerButtons{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerButtons button{
+    margin: 0.6rem 1rem;
+}
+
+.typeBtns h2, .sizeBtns h2, .colorBtns h2{
+    text-align: center;
+    margin-top: 3.5rem ;
+}
+
+#editBtns{
+    margin-top: 3rem;
+    background-color: #f7f7f7;
+    width: 90%;
+    height: 500px;
+    border-radius: 8px;
+    
+}
+
+#editBtns h2{
+    color: #000;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+#editBtns > section{
+    background-color: red;
+    height: 100%;
+}
+
+.class-btn-default{
+    background-color: #1d8aff;
+    color: #fff;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 5px;
+    width: 8rem;
+    height: 2.4rem;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+}
