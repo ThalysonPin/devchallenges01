@@ -11,7 +11,6 @@ User story: I can have different button sizes
 User story: I can have different colors
 User story: When I hover or focus, I can see visual indicators
 */
-
 /* 
 User story: I can choose to disable box-shadow
 User story: I can choose to disable the button
@@ -29,7 +28,6 @@ export default function ButtonsComp() {
   const [boxShadow, setBoxShadow] = useState(true)
   const [leftIcon, setLeftIcon] = useState(false)
   const [rightIcon, setRightIcon] = useState(false)
-
 
   return (
     <div className='containerButtons'>
@@ -68,9 +66,9 @@ export default function ButtonsComp() {
               id={boxShadow ? "boxShadow" : "boxShadowNone"}
               startIcon={leftIcon ? <ModeEditOutlineIcon/> : ""}
               endIcon={rightIcon ? <ModeEditOutlineIcon/> : ""}
-
               >Edit here</Button>
             </div>
+
 
             <div className='rightArea'>
 {/* ================================== style buttons =====================*/}
@@ -119,8 +117,6 @@ export default function ButtonsComp() {
               checked={rightIcon}
               onChange={(e) => setRightIcon(e.target.checked)}
               />
-
-
             </div>
           </section>
         </div>

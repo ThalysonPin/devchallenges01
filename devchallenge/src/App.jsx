@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
 import ButtonsComp from './components/differentBtns/ButtonsComp'
 import { Button } from '@mui/material'
