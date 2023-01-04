@@ -14,29 +14,15 @@
     margin-top: 3.5rem ;
 }
 
-#editBtns{
-    margin-top: 3rem;
-    background-color: #f7f7f7;
-    width: 90%;
-    height: 500px;
-    border-radius: 8px;
-    
-}
-
 #editBtns h2{
     color: #000;
     margin-top: 1rem;
     text-align: center;
 }
 
-#editBtns > section{
-    background-color: red;
-    height: 100%;
-}
 
 .class-btn-default{
     background-color: #1d8aff;
-    color: #fff;
     font-weight: 600;
     padding: 5px;
     border-radius: 5px;
@@ -46,3 +32,65 @@
     border: 0;
     outline: 0;
 }
+
+#editBtns{
+    margin-top: 3rem;
+    background-color: #f7f7f7;
+    width: 90%;
+    height: 500px;
+    border-radius: 8px;
+}
+
+#editBtns > section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.leftArea{
+    width: 100%;
+    height: 455px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightArea{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightArea select{
+    margin: 10px auto;
+    padding: 0.5rem;
+    border-radius: 6px;
+}
+
+
+.rightArea h4{
+    color: black;
+}
+
+.rightArea select{
+    color: black;
+    width: 50%;
+}
+
+.rightArea option{
+    color: black;
+}
+
+#boxShadow{
+    box-shadow: 1px 1px 5px  black;
+}
+
+#boxShadowNone{
+    box-shadow: none;
+}
+
+#boxShadowNone:hover{
+    box-shadow: none;
+}
+
